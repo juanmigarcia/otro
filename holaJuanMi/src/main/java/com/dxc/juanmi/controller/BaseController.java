@@ -22,7 +22,7 @@ public class BaseController {
 	public String welcome(ModelMap model) {
 
 		int contador = ++counter;
-		model.addAttribute("message", "Hello Juanmi!!");
+		model.addAttribute("message", "Hello JuanMi!!");
 		model.addAttribute("counter", contador);
 		logger.debug("[welcome] counter : {}", contador);
 		
